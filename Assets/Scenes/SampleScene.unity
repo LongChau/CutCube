@@ -233,9 +233,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1556028111}
+  - {fileID: 1583324791}
   otherPartCubes: []
+  meshRender: {fileID: 40841438}
+  meshFilter: {fileID: 40841439}
   isLinked: 0
 --- !u!1 &98243820
 GameObject:
@@ -347,9 +351,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 313525107}
   otherPartCubes: []
+  meshRender: {fileID: 98243823}
+  meshFilter: {fileID: 98243824}
   isLinked: 0
 --- !u!1 &217185356
 GameObject:
@@ -461,10 +468,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1597205707}
   - {fileID: 516433805}
   otherPartCubes: []
+  meshRender: {fileID: 217185359}
+  meshFilter: {fileID: 217185360}
   isLinked: 0
 --- !u!1 &313525102
 GameObject:
@@ -576,10 +586,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 98243825}
   - {fileID: 1424058264}
   otherPartCubes: []
+  meshRender: {fileID: 313525105}
+  meshFilter: {fileID: 313525106}
   isLinked: 0
 --- !u!1 &475965714
 GameObject:
@@ -691,11 +704,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1044242403}
   - {fileID: 1257436523}
   - {fileID: 525219120}
   otherPartCubes: []
+  meshRender: {fileID: 475965717}
+  meshFilter: {fileID: 475965718}
   isLinked: 0
 --- !u!1 &516433800
 GameObject:
@@ -807,11 +823,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1073021250}
   - {fileID: 217185361}
   - {fileID: 1095372242}
   otherPartCubes: []
+  meshRender: {fileID: 516433803}
+  meshFilter: {fileID: 516433804}
   isLinked: 0
 --- !u!1 &525219115
 GameObject:
@@ -923,10 +942,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 475965719}
   - {fileID: 1088798429}
   otherPartCubes: []
+  meshRender: {fileID: 525219118}
+  meshFilter: {fileID: 525219119}
   isLinked: 0
 --- !u!1 &529697130
 GameObject:
@@ -1038,11 +1060,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1903610549}
   - {fileID: 1225068350}
   - {fileID: 1686144206}
   otherPartCubes: []
+  meshRender: {fileID: 529697133}
+  meshFilter: {fileID: 529697134}
   isLinked: 0
 --- !u!1 &544880946
 GameObject:
@@ -1154,11 +1179,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1604350956}
   - {fileID: 2105455011}
   - {fileID: 1225068350}
   otherPartCubes: []
+  meshRender: {fileID: 544880949}
+  meshFilter: {fileID: 544880950}
   isLinked: 0
 --- !u!1 &593819999
 GameObject:
@@ -1270,9 +1298,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1686144206}
   otherPartCubes: []
+  meshRender: {fileID: 593820002}
+  meshFilter: {fileID: 593820003}
   isLinked: 0
 --- !u!1 &655131038
 GameObject:
@@ -1384,11 +1415,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 778199693}
   - {fileID: 1424058264}
   - {fileID: 1257436523}
   otherPartCubes: []
+  meshRender: {fileID: 655131041}
+  meshFilter: {fileID: 655131042}
   isLinked: 0
 --- !u!1 &705507993
 GameObject:
@@ -1594,11 +1628,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 2105455011}
   - {fileID: 655131043}
   - {fileID: 1604350956}
   otherPartCubes: []
+  meshRender: {fileID: 778199691}
+  meshFilter: {fileID: 778199692}
   isLinked: 0
 --- !u!1 &963194225
 GameObject:
@@ -1794,10 +1831,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1095372242}
   - {fileID: 1073021250}
   otherPartCubes: []
+  meshRender: {fileID: 1004517659}
+  meshFilter: {fileID: 1004517660}
   isLinked: 0
 --- !u!1 &1044242398
 GameObject:
@@ -1909,11 +1949,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1225068350}
   - {fileID: 475965719}
   - {fileID: 1604350956}
   otherPartCubes: []
+  meshRender: {fileID: 1044242401}
+  meshFilter: {fileID: 1044242402}
   isLinked: 0
 --- !u!1 &1073021245
 GameObject:
@@ -2025,11 +2068,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 516433805}
   - {fileID: 1597205707}
   - {fileID: 1004517661}
   otherPartCubes: []
+  meshRender: {fileID: 1073021248}
+  meshFilter: {fileID: 1073021249}
   isLinked: 0
 --- !u!1 &1088798424
 GameObject:
@@ -2141,10 +2187,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 525219120}
   - {fileID: 1372644687}
   otherPartCubes: []
+  meshRender: {fileID: 1088798427}
+  meshFilter: {fileID: 1088798428}
   isLinked: 0
 --- !u!1 &1095372237
 GameObject:
@@ -2256,11 +2305,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1004517661}
   - {fileID: 516433805}
   - {fileID: 2105455011}
   otherPartCubes: []
+  meshRender: {fileID: 1095372240}
+  meshFilter: {fileID: 1095372241}
   isLinked: 0
 --- !u!1 &1225068345
 GameObject:
@@ -2372,11 +2424,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 529697135}
   - {fileID: 1044242403}
   - {fileID: 544880951}
   otherPartCubes: []
+  meshRender: {fileID: 1225068348}
+  meshFilter: {fileID: 1225068349}
   isLinked: 0
 --- !u!1 &1254534238
 GameObject:
@@ -2435,8 +2490,9 @@ Transform:
   - {fileID: 1556028107}
   - {fileID: 40841436}
   - {fileID: 1903610545}
+  - {fileID: 1583324790}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1254534240
 Rigidbody:
@@ -2496,6 +2552,7 @@ MonoBehaviour:
   - {fileID: 40841440}
   - {fileID: 1903610549}
   separatedPartCount: 0
+  combineGo: {fileID: 1878140112}
 --- !u!1 &1257436518
 GameObject:
   m_ObjectHideFlags: 0
@@ -2606,11 +2663,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1604350956}
   - {fileID: 655131043}
   - {fileID: 475965719}
   otherPartCubes: []
+  meshRender: {fileID: 1257436521}
+  meshFilter: {fileID: 1257436522}
   isLinked: 0
 --- !u!1 &1372644682
 GameObject:
@@ -2722,9 +2782,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1088798429}
   otherPartCubes: []
+  meshRender: {fileID: 1372644685}
+  meshFilter: {fileID: 1372644686}
   isLinked: 0
 --- !u!1 &1424058259
 GameObject:
@@ -2836,10 +2899,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 313525107}
   - {fileID: 655131043}
   otherPartCubes: []
+  meshRender: {fileID: 1424058262}
+  meshFilter: {fileID: 1424058263}
   isLinked: 0
 --- !u!1 &1556028106
 GameObject:
@@ -2951,11 +3017,131 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 40841440}
   - {fileID: 1903610549}
   otherPartCubes: []
+  meshRender: {fileID: 1556028109}
+  meshFilter: {fileID: 1556028110}
   isLinked: 0
+--- !u!1 &1583324789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1583324790}
+  - component: {fileID: 1583324794}
+  - component: {fileID: 1583324793}
+  - component: {fileID: 1583324792}
+  - component: {fileID: 1583324791}
+  m_Layer: 0
+  m_Name: Cube (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1583324790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583324789}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1254534239}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1583324791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583324789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
+  - {fileID: 1556028111}
+  otherPartCubes: []
+  meshRender: {fileID: 1583324793}
+  meshFilter: {fileID: 1583324794}
+  isLinked: 0
+--- !u!65 &1583324792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583324789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1583324793
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583324789}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: da87612b01c3df94a9d14579537af7a3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1583324794
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583324789}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1597205702
 GameObject:
   m_ObjectHideFlags: 0
@@ -3066,10 +3252,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 217185361}
   - {fileID: 1073021250}
   otherPartCubes: []
+  meshRender: {fileID: 1597205705}
+  meshFilter: {fileID: 1597205706}
   isLinked: 0
 --- !u!1 &1604350951
 GameObject:
@@ -3181,12 +3370,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 544880951}
   - {fileID: 1257436523}
   - {fileID: 778199693}
   - {fileID: 1044242403}
   otherPartCubes: []
+  meshRender: {fileID: 1604350954}
+  meshFilter: {fileID: 1604350955}
   isLinked: 0
 --- !u!1 &1686144201
 GameObject:
@@ -3298,11 +3490,97 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 529697135}
   - {fileID: 593820004}
   otherPartCubes: []
+  meshRender: {fileID: 1686144204}
+  meshFilter: {fileID: 1686144205}
   isLinked: 0
+--- !u!1 &1878140112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878140115}
+  - component: {fileID: 1878140114}
+  - component: {fileID: 1878140113}
+  m_Layer: 0
+  m_Name: Fake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1878140113
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878140112}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: da87612b01c3df94a9d14579537af7a3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1878140114
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878140112}
+  m_Mesh: {fileID: 0}
+--- !u!4 &1878140115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878140112}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1903610544
 GameObject:
   m_ObjectHideFlags: 0
@@ -3413,10 +3691,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 1556028111}
   - {fileID: 529697135}
   otherPartCubes: []
+  meshRender: {fileID: 1903610547}
+  meshFilter: {fileID: 1903610548}
   isLinked: 0
 --- !u!1 &2105455006
 GameObject:
@@ -3528,9 +3809,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e062dddcc08465a469067d6e712ad427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedFromCubes:
+  cubeCtrl: {fileID: 1254534241}
+  nearbyCubes:
   - {fileID: 778199693}
   - {fileID: 1095372242}
   - {fileID: 544880951}
   otherPartCubes: []
+  meshRender: {fileID: 2105455009}
+  meshFilter: {fileID: 2105455010}
   isLinked: 0

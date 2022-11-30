@@ -9,6 +9,7 @@ public class CubeController : MonoBehaviour
     public Camera cam;
     public List<PixelCube> pixelCubes = new List<PixelCube>();
     public int separatedPartCount = 0;
+    public GameObject combineGo;
 
     static public CubeController instance;
 
@@ -25,7 +26,9 @@ public class CubeController : MonoBehaviour
         List<PixelCube> partCubes = new List<PixelCube>();
         foreach (var cube in pixelCubes)
         {
+            cube.cubeCtrl = this;
             cube.isLinked = true;
+            cube.isInit = true;
 
             // Calculate other part cubes. Without its cube.
             partCubes.Clear();
